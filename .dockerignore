@@ -1,0 +1,21 @@
+#cache
+__pycache__/
+
+# Virtual environment
+venv/
+.venv/
+
+# Git
+.git/
+.gitignore
+
+# Environment files
+.env
+.env.*
+
+# IDE
+.vscode/
+
+# Migrations 
+**/migrations/
+

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Django
+*.pyc
+db.sqlite3
+
+
+# dotenv
+.env
+.env.*
+
+# VS Code 
+.vscode/
+
+# Migrations
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+**/migrations/*.pyd
+**/migrations/*.py
+!*/migrations/__init__.py
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+
